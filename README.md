@@ -32,20 +32,20 @@ Specifically, it targets the temporal modeling of cell migration phenomena using
 
 ## Repository Structure
 
-checkpoints/ # To store model weights
-data/ # To configure input data (adapted to doble-input)
-datasets/basic/ # Dataset samples used for both training and testing
-models/ # pix2pix model definitions and custom modifications
-options/ # Training and inference configurations
-results/.../test_latest/ # Output image sequences from inference example
-scripts/ # Data preprocessing utilities
-util/ # Support functions
-Metricas_Evaluacion_Imagenes.ipynb # Notebook for metric image analysis
-pix2pix.ipynb # Interactive version of the training pipeline
-Sequences_Metrics_Evaluation.ipynb # Notebook for metric sequence analysis
-train.py # Main training script
-test.py # Standard inference script
-test_recur.py # Recursive inference script
+ - checkpoints/ # To store model weights
+ - data/ # To configure input data (adapted to doble-input)
+ - datasets/basic/ # Dataset samples used for both training and testing
+ - models/ # pix2pix model definitions and custom modifications
+ - options/ # Training and inference configurations
+ - results/.../test_latest/ # Output image sequences from inference example
+ - scripts/ # Data preprocessing utilities
+ - util/ # Support functions
+ - Metricas_Evaluacion_Imagenes.ipynb # Notebook for metric image analysis
+ - pix2pix.ipynb # Interactive version of the training pipeline
+ - Sequences_Metrics_Evaluation.ipynb # Notebook for metric sequence analysis
+ - train.py # Main training script
+ - test.py # Standard inference script
+ - test_recur.py # Recursive inference script
 
 ---
 
