@@ -65,10 +65,17 @@ A/ = Sketch images
 
 B/ = Real images
 
+Example: 
+<img width="1024" height="512" alt="151" src="https://github.com/user-attachments/assets/16a745e0-7820-4d15-9760-ae9d70db5236" />
+
+
 Organize them in time-paired folders if generating sequences.
 
 ### 3. Train the model
 python train.py --dataroot ./datasets/basic --name dualseq-basic-v1 --model dual_gan --direction AtoB --n_epochs 100
+
+Expected training performance:
+<img width="651" height="652" alt="image" src="https://github.com/user-attachments/assets/8aaecaa8-c400-4f2d-b89c-f0e3d6d58ae8" />
 
 ### 4. Test the model
 python test.py --dataroot ./datasets/basic --name dualseq-basic-v1 --model dual_gan --direction AtoB
