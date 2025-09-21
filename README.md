@@ -84,6 +84,10 @@ python test.py --dataroot ./datasets/basic --name dualseq-basic-v1 --model dual_
 ### 5. Generate sequences (recursive)
 python test_recur.py --dataroot ./datasets/basic --name dualseq-basic-v1 --model dual_gan --recursive True
 
+Expected output:
+https://github.com/user-attachments/assets/52016afe-327d-4b74-8270-ee3336552a91
+
+
 ## Evaluation
 
 Use the provided notebooks:
